@@ -19,7 +19,7 @@ rl.question('Digite um número para exibir a tabuada:', (numero) => {//question 
         rl.close();
     } else {
         console.log("Por favor, insira um número válido.");
-        rl.close();
+        rl.close();//finaliza o question
     }
 });
 //tabuada usando chamada de funções e require para leitura, 
